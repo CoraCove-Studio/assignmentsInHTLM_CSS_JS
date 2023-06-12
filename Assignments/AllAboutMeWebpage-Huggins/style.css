@@ -1,0 +1,30 @@
+body {
+    margin: 150px;
+    font-family: system-ui;
+    color: #164747;
+
+    background-color: #949c59;
+
+    padding: 25px;
+
+    font-size: large;
+}
+
+.nameScape {
+background-color:#949c59;
+/*background-image: url(cover.jpg);*/
+background-size: cover;
+background-blend-mode: multiply;
+
+border: 5px solid;
+border-color: #164747;
+
+color: antiquewhite;
+
+margin: 25px;
+
+padding: 25px;
+
+padding-top: 100px;
+padding-bottom: 100px;
+}

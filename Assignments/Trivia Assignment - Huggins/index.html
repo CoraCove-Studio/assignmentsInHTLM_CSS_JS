@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<div class="trivia">
+<title>Trivia or Not Trivia?</title>
+</div>
+
+</head>
+
+<body onload = "onLoadPage()">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Timer portion of assignment-->
+
+    <h1>Countdown to Calm Down - Can You Do It?</h1>
+
+    <hr>
+
+    <h2>Insert a number in the box box below and see if that number counts down to 0.</h2>
+
+    <br>
+
+    <label for="question">What number are YOU counting down from?: </label>
+    <input type="text" id="number" name="numberToCountdownFrom">
+
+    <br>
+
+    <p><button type="button" onclick="handleButtonClick()">Start Countdown!</button></p>
+
+    <hr>
+
+    <div id="output">
+        <p></p>
+    </div>
+
+    <!--End timer portion of assignment-->
+
+    <!--Start palendrome portion of assignment-->
+
+    <h1>Is it a Palindrome?</h1>
+
+    <hr>
+
+    <h2>A palindrome is a word or sentence that is equal to its reverse. For example, racecar is a palindrome. Enter a word or
+        sentence in the space below to see if it is a palindrome.
+    </h2>
+
+    <br>
+
+    <label for="question">Is it a palindrome?:</label>
+    <input type="text" id="palindrome" name="palindrome">
+
+    <br>
+
+    <p><button type="button" onclick="handlePalindromeButtonClick()">Is it a palindrome?</button></p>
+
+    <hr>
+
+    <div id="outputForPalindrome">
+        <p></p>
+    </div>
+
+
+    <script src="trivia.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,32 @@
+body {
+    margin: 150px;
+    font-family: system-ui;
+    color: #343878;
+
+    background-color: #493857;
+
+    color:aliceblue;
+
+    padding: 25px;
+
+    font-size: larger;
+}
+
+.gameName {
+background-color: #8f57bd;
+background-image: url(petunia.jpg);
+background-size: cover;
+background-blend-mode: multiply;
+
+border: 5px solid;
+border-color: #343878;
+
+color: antiquewhite;
+
+margin: 25px;
+
+padding: 25px;
+
+padding-top: 100px;
+padding-bottom: 100px;
+}

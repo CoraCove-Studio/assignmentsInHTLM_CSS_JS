@@ -1,0 +1,74 @@
+<!--This is how you comment-->
+<!-- A comment begins with <!-- and ends with --> 
+<!-- left chevron, exclamation, hyphen, hypen, "Comment", hypen, hypen, right chevron. -->
+
+<!DOCTYPE html> <!--The <!DOCTYPE html> declaration defines this document to be HTML5-->
+
+<html> <!--The text between <html> and </html> describes an HTML document-->
+    <head> <!--The text between <head> and </head> provides information about the document-->
+        <title>SGD 180 - Introduction to HTML</title> <!--The text between <title> and </title> provides a title for the document-->
+    </head>
+
+    <body> <!--The text between <body> and </body> describes the visible page content-->
+
+        <h1>SGD 180 - Introduction to HTML</h1> <!--The text between <h1> and </h1> describes a heading-->
+
+<br /> <!-- <br /> Represents a line break, similar to a new line character (e.g. \n and endl). -->  
+
+        <h2>Introduction to HTML:</h2> <!--<h2> Represents another heading-->      
+        <p>Welcome to SGD 180 - Introduction to HTML. In this course you will be introduced to
+            HTML5 (Hyper Text Markup Language), CSS (Cascade Style Sheets), and JavaScript.</p> <!--The text between <p> and </p> describes a paragraph-->
+
+        <img src="wave.gif" alt="Lemon Wave" height="185" width="360" />
+
+<br /> <!-- You can utilize line breaks to add spaces between exposed elements (e.g. header, paragrapgh, img, etc) -->
+
+        <h2> Getting Started: </h2>
+        <p> It is possible to write HTML, CSS and js in any text editor (e.g. Notepad, Text Edit), becuase a compiler is not necessary. 
+            However, it is recommended to utilize text editors with intellisense (auto complete for code) and syntax formatting to improve workflow.
+            Notepad++, Komodo Edit, and Visual Studio Code are free IDE's that provide the ability to utilize workflow tools.   
+<br />
+<br />
+            Creating an .html document is as easy as 1 ... 2
+            <!-- This is an ordered list, or bullet pointed list -->
+            <!-- <ol> specifies ordered list -->
+            <!-- <li> specifies the list item text -->
+            <!-- It is not necessary to put a line break before or after a list. The format specifier has that functionality built in -->
+            <ol>
+                <li>Open any text editor</li>
+                <li>Give the document the .html extension when saving</li>
+            </ol>
+
+            It is also recommended to create a folder to house all of the elements of your web application. 
+            When linking elements (e.g. images, audio, etc) in your code, the .html document will search the path, for said elements, that the document is saved in.
+            When you submit your assignments, you will submit the entire working folder.
+        </p>
+
+        <!-- This is one way to create a clickable button with text that navigates to a web address. -->
+        <!-- The <form> tag is used to create an HTML form for user input. -->
+        <!-- The action attribute specifies where to send the form-data when a form is submitted -->
+        <!-- input type determines what the button does. In this case it submits a form (page). Buttons can also be used to activate scripts. -->
+        <!-- The value represents what is displayed as the button's text component. -->
+        <!-- The formtarget specifies where to open the linked document, in this case '_blank' is a new tab in the web browser -->
+        <form action="https://code.visualstudio.com/">
+            <input type="submit" value="Visual Studio Code" formtarget="_blank">
+        </form>
+<br />
+        <form action="http://komodoide.com/komodo-edit/">
+            <input type="submit" value="Komodo Edit" formtarget="_blank">
+        </form>
+
+        <h2> Resources: </h2>
+        <p> Before we can get to game code, we must start with the basics. For the first portion of this course, 
+			the website: <a href="http://www.w3schools.com/" target="_blank"> w3schools.com </a> can provide additional assistance for introductory HTML, CSS and Javscript. 
+			Also, any webpage can be a use case resource,             just by viewing its source. <a href="http://www.computerhope.com/issues/ch000746.htm" target="_blank"> see this link </a><br />
+<br />      The lecture .html documents, provided to you, are not only webpages. If you open up the .html file in a text editor, you will find that the lecture is 
+            just one big code example. Pay close attention to the comments...
+        </p>
+            
+        <form action="Setup.html">
+            <input type="submit" value="Begin: Set Up >">
+        </form>         
+
+    </body>
+</html>
